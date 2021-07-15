@@ -1,2 +1,2 @@
-# storm os repo
-StormOS Repo for Compiled Packages
+# hackjaro repo
+hackjaro Repo for Compiled Packages
