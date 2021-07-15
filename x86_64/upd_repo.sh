@@ -18,14 +18,14 @@ function banner() {
 	printf "\n"
 }
 
-repoargs=("-n -R stormos-manjaro.db.tar.gz *.pkg.tar.zst")
+repoargs=("-n -R hackjaro.db.tar.gz *.pkg.tar.zst")
 
-rm -f stormos-manjaro.*
+rm -f hackjaro.*
 
-banner "Update storm OS manjaro Repo..."
+banner "Update hackjaro Repo..."
 
 repo-add $repoargs
 #sleep 8
-cp stormos-manjaro.db.tar.gz stormos-manjaro.db
+cp hackjaro.db.tar.gz hackjaro.db
 
-banner "Storm OS manjaro Repo Updated..."
+banner "hackjaro Repo Updated..."
