@@ -1,3 +1,3 @@
-#stormM repo
+#stormjaro repo
 
-stormM Repo for Compiled Packages
+stormjaro Repo for Compiled Packages
