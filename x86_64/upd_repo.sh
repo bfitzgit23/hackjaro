@@ -18,14 +18,14 @@ function banner() {
 	printf "\n"
 }
 
-repoargs=("-n -R stormM.db.tar.gz *.pkg.tar.zst")
+repoargs=("-n -R stormjaro.db.tar.gz *.pkg.tar.zst")
 
 rm -f stormM.*
 
-banner "Update stormM Repo..."
+banner "Update stormjaro Repo..."
 
 repo-add $repoargs
 #sleep 8
-cp stormM.db.tar.gz stormM.db
+cp stormjaro.db.tar.gz stormjaro.db
 
 banner "stormM Repo Updated..."
